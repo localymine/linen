@@ -28,8 +28,8 @@
       </div>
       <style>body{min-width:960px !important}</style>
       <![endif]-->
-      <link rel="stylesheet" type="text/css" href="http://ld-magento.template-help.com/magento_58878/media/css/11a6a09f0f70174a115eec577b139e70.css">
-      <link rel="stylesheet" type="text/css" href="http://ld-magento.template-help.com/magento_58878/media/css/9301737dd1868507a027f557038f4c1a.css" media="all">
+      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/assets/css/extend.css">
+      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/assets/css/base.css" media="all">
       <link href="http://ld-magento.template-help.com/magento_58878/blog/rss/index/store_id/1/" title="Blog" rel="alternate" type="application/rss+xml">
       <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic&amp;subset=latin,cyrillic">
       <link rel="canonical" href="http://ld-magento.template-help.com/magento_58878/uneven-hem-top.html">

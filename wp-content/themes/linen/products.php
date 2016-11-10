@@ -22,7 +22,7 @@
       </div>
       <style>body{min-width:960px !important}</style>
       <![endif]-->
-      <link rel="stylesheet" type="text/css" href="http://ld-magento.template-help.com/magento_58878/media/css/348de5533da008ae66b3057e2999ab76.css" media="all">
+      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/assets/css/base.css" media="all">
       <link href="http://ld-magento.template-help.com/magento_58878/blog/rss/index/store_id/1/" title="Blog" rel="alternate" type="application/rss+xml">
       <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic&amp;subset=latin,cyrillic">
       <link rel="canonical" href="http://ld-magento.template-help.com/magento_58878/men.html">
