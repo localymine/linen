@@ -1,4 +1,3 @@
-</div>
 <div class="footer-container">
     <div class="container">
         <div class="row">
@@ -84,15 +83,15 @@
             </div>
         </div>
     </div>
-</div>
-</div>
-</div>
-</div>
+</div> <!-- // END footer-container -->
+</div> <!-- // END main_site_wrapper -->
+</div> <!-- // END page -->
+</div> <!-- // END wrapper -->
 <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="newsletterpopup" aria-hidden="true" id="newsletterpopup">
     <div class="modal-dialog">
         <div class="newsletterpopup-content">
             <button type="button" class="close" data-dismiss="modal">
-            <span aria-hidden="true"><i class="material-design-close47"></i></span><span class="sr-only">Close</span>
+                <span aria-hidden="true"><i class="material-design-close47"></i></span><span class="sr-only">Close</span>
             </button>
             <div class="newsletterpopup-indent">
                 <div class="modal-body">
@@ -123,54 +122,56 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/assets/js/app.js"></script>
 
 <script type="text/javascript">
-Mage.Cookies.path = '';
-Mage.Cookies.domain = '';
+                                        Mage.Cookies.path = '';
+                                        Mage.Cookies.domain = '';
 </script>
 <script type="text/javascript">var Translator = new Translate([]);</script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/assets/js/camera.js"></script>
 <script type="text/javascript">jQuery(function () {
-    jQuery('#camera_wrap').camera({alignmen: 'topCenter', height: '45.726%', minHeight: '130px', loader: false, pagination: false, fx: 'simpleFade', navigationHover: false, thumbnails: false, playPause: false});});
+        jQuery('#camera_wrap').camera({alignmen: 'topCenter', height: '45.726%', minHeight: '130px', loader: false, pagination: false, fx: 'simpleFade', navigationHover: false, thumbnails: false, playPause: false});
+    });
 </script>
 <script type="text/javascript">var dataForm = new VarienForm('login-form', true);</script>
 <script type="text/javascript">jQuery(window).load(function () {
-    jQuery().youamaAjaxLogin({redirection: '0', profileUrl: 'http://ld-magento.template-help.com/magento_58878/customer/account/', autoShowUp: 'no', controllerUrl: 'http://ld-magento.template-help.com/magento_58878/ajaxlogin/ajax/index/'});
+        jQuery().youamaAjaxLogin({redirection: '0', profileUrl: 'http://ld-magento.template-help.com/magento_58878/customer/account/', autoShowUp: 'no', controllerUrl: 'http://ld-magento.template-help.com/magento_58878/ajaxlogin/ajax/index/'});
     });
 </script>
 <script>
     jQuery(document).ready(function () {
-       var owl = jQuery("#owl-new-products");owl.owlCarousel({autoHeight: false, pagination: false, items: 4, itemsDesktop: [1199, 3], itemsDesktopSmall: [991, 3], itemsTablet: [768, 2], itemsMobile: [479, 1]});
-       function MageResize() {
-           setTimeout(function () {
-               var bodyWidthTest = jQuery('.wrapper').width();
-               if (bodyWidthTest >= 1200) {
-                   jQuery(".owl-new-products .item .item_placeholder").removeAttr("style");
-                   var prod_img_height = jQuery(".owl-new-products .item .product-image").height();
-                   jQuery(".owl-new-products .item .product-image-container").height(prod_img_height);
-                   jQuery('.owl-new-products .item').hover(function () {
-                       var bodyWidthTest2 = jQuery('.wrapper').width();
-                       if (bodyWidthTest2 >= 1200) {
-                           jQuery(".item_placeholder", this).height(prod_img_height);
-                       }
-                   }, function () {
-                       var bodyWidthTest2 = jQuery('.wrapper').width();
-                       if (bodyWidthTest2 >= 1200) {
-                           jQuery(".item_placeholder", this).height(0);
-                       }
-                   });
-               } else {
-                   jQuery(".owl-new-products .item .item_placeholder").removeAttr("style");
-                   jQuery(".owl-new-products .item .product-image-container").removeAttr("style");
-               }
-           }, 2000);
-       }
-       jQuery(window).bind('resize load', MageResize);
-       jQuery(".next_new").click(function () {
-           owl.trigger('owl.next');
-       })
-       jQuery(".prev_new").click(function () {
-           owl.trigger('owl.prev');
-       })
-       });
+        var owl = jQuery("#owl-new-products");
+        owl.owlCarousel({autoHeight: false, pagination: false, items: 4, itemsDesktop: [1199, 3], itemsDesktopSmall: [991, 3], itemsTablet: [768, 2], itemsMobile: [479, 1]});
+        function MageResize() {
+            setTimeout(function () {
+                var bodyWidthTest = jQuery('.wrapper').width();
+                if (bodyWidthTest >= 1200) {
+                    jQuery(".owl-new-products .item .item_placeholder").removeAttr("style");
+                    var prod_img_height = jQuery(".owl-new-products .item .product-image").height();
+                    jQuery(".owl-new-products .item .product-image-container").height(prod_img_height);
+                    jQuery('.owl-new-products .item').hover(function () {
+                        var bodyWidthTest2 = jQuery('.wrapper').width();
+                        if (bodyWidthTest2 >= 1200) {
+                            jQuery(".item_placeholder", this).height(prod_img_height);
+                        }
+                    }, function () {
+                        var bodyWidthTest2 = jQuery('.wrapper').width();
+                        if (bodyWidthTest2 >= 1200) {
+                            jQuery(".item_placeholder", this).height(0);
+                        }
+                    });
+                } else {
+                    jQuery(".owl-new-products .item .item_placeholder").removeAttr("style");
+                    jQuery(".owl-new-products .item .product-image-container").removeAttr("style");
+                }
+            }, 2000);
+        }
+        jQuery(window).bind('resize load', MageResize);
+        jQuery(".next_new").click(function () {
+            owl.trigger('owl.next');
+        })
+        jQuery(".prev_new").click(function () {
+            owl.trigger('owl.prev');
+        })
+    });
 </script>
 <script type="text/javascript">var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
     document.getElementById("newsletter").setAttribute('autocapitalize', 'off');
@@ -180,29 +181,29 @@ Mage.Cookies.domain = '';
     // document.write(mdate.getFullYear());
 </script>
 <script type="text/javascript">var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail2');</script> <script>jQuery(document).ready(function () {
-    var newsPopup = jQuery('#newsletterpopup');
-    var newsPopupClose = newsPopup.find('.close');
-    var showNewsPopup = sessionStorage.getItem("showNewsPopup");
-    if (showNewsPopup != '0') {
-        newsPopup.modal();
-        disable_scroll();
-    }
-    ;
-    newsPopupClose.click(function () {
-        sessionStorage.setItem("showNewsPopup", '0');
-        enable_scroll();
-    });
-    jQuery('body').click(function () {
-        enable_scroll();
-    });
+        var newsPopup = jQuery('#newsletterpopup');
+        var newsPopupClose = newsPopup.find('.close');
+        var showNewsPopup = sessionStorage.getItem("showNewsPopup");
+        if (showNewsPopup != '0') {
+            newsPopup.modal();
+            disable_scroll();
+        }
+        ;
+        newsPopupClose.click(function () {
+            sessionStorage.setItem("showNewsPopup", '0');
+            enable_scroll();
+        });
+        jQuery('body').click(function () {
+            enable_scroll();
+        });
     });
     function disable_scroll() {
-    jQuery('body').bind('touchmove', function (e) {
-        e.preventDefault()
-    });
+        jQuery('body').bind('touchmove', function (e) {
+            e.preventDefault()
+        });
     }
     function enable_scroll() {
-    jQuery('body').unbind('touchmove');
+        jQuery('body').unbind('touchmove');
     }
 </script>
 <!-- googletagmanager -->
