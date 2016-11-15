@@ -115,12 +115,9 @@
     </div>
 </div>
 <div id="overlay" class=""></div>
-
 <!-- google-analytics -->
 <!-- googletagmanager -->
-
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/assets/js/app.js"></script>
-
 <script type="text/javascript">
                                         Mage.Cookies.path = '';
                                         Mage.Cookies.domain = '';

@@ -3,25 +3,10 @@
         <div class="main">
             <div class="col-main">
                 <div class="padding-s">
-                    <div class="youama_ajaxlogin-temp-error" id="hideit">
-                        <div class="ytmpa-nofirstname">First name is required!</div>
-                        <div class="ytmpa-nolastname">Last name is required!</div>
-                        <div class="ytmpa-dirtyfirstname">First name is not valid!</div>
-                        <div class="ytmpa-dirtylastname">Last name is not valid!</div>
-                        <div class="ytmpa-wrongemail">This is not an email address!</div>
-                        <div class="ytmpa-noemail">Email address is required!</div>
-                        <div class="ytmpa-emailisexist">This email is already registered!</div>
-                        <div class="ytmpa-nopassword">Password is required!</div>
-                        <div class="ytmpa-dirtypassword">Enter a valid password!</div>
-                        <div class="ytmpa-shortpassword">Please enter 6 or more characters!</div>
-                        <div class="ytmpa-longpassword">Please enter 16 or less characters!</div>
-                        <div class="ytmpa-notsamepasswords">Passwords are not same!</div>
-                        <div class="ytmpa-nolicence">Terms and Conditions are required!</div>
-                        <div class="ytmpa-wronglogin">Email or Password is wrong!</div>
-                    </div>
-                    <div class="std">
-                        <div class="clear"></div>
-                    </div>
+                    <?php
+                    // TODO message
+//                    get_template_part('p-register-validation-message') 
+                    ?>
                     <div class="widget widget-new-products">
                         <div class="widget-title">
                             <h2>New Products</h2>
@@ -37,7 +22,7 @@
                                         <div class="owl-item" style="width: 257px;">
                                             <div class="carousel_col">
                                                 <div class="item index_item" itemscope="" itemtype="http://schema.org/product">
-                                                    <div class="item_placeholder"></div>
+                                                    <div class="item_placeholder" style="height: 0px;"></div>
                                                     <div class="item_wrap">
                                                         <div class="product-image-container" style="height: 281px;">
                                                             <div class="label-product"></div>
@@ -71,10 +56,10 @@
                                                                 <span class="amount"><a href="#" onclick="var t = opener ? opener.window : window; t.location.href = 'http://ld-magento.template-help.com/magento_58878/review/product/list/id/83/'; return false;">1 Review(s)</a></span>
                                                             </div>
                                                             <div class="actions">
-                                                                <a href="http://ld-magento.template-help.com/magento_58878/checkout/cart/add/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/product/83/form_key/6eR9EBgdz34WBS6H/" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
+                                                                <a href="http://ld-magento.template-help.com/magento_58878/checkout/cart/add/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/product/83/form_key/Pu88seeoujm3gNCs/" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
                                                                 <ul class="add-to-links">
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/83/form_key/6eR9EBgdz34WBS6H/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/83/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/6eR9EBgdz34WBS6H/" class="link-compare"><span>Add to Compare</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/83/form_key/Pu88seeoujm3gNCs/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/83/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/Pu88seeoujm3gNCs/" class="link-compare"><span>Add to Compare</span></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -115,10 +100,10 @@
                                                                 <span class="amount"><a href="#" onclick="var t = opener ? opener.window : window; t.location.href = 'http://ld-magento.template-help.com/magento_58878/review/product/list/id/93/'; return false;">1 Review(s)</a></span>
                                                             </div>
                                                             <div class="actions">
-                                                                <a href="http://ld-magento.template-help.com/magento_58878/checkout/cart/add/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/product/93/form_key/6eR9EBgdz34WBS6H/" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
+                                                                <a href="http://ld-magento.template-help.com/magento_58878/checkout/cart/add/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/product/93/form_key/Pu88seeoujm3gNCs/" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
                                                                 <ul class="add-to-links">
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/93/form_key/6eR9EBgdz34WBS6H/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/93/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/6eR9EBgdz34WBS6H/" class="link-compare"><span>Add to Compare</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/93/form_key/Pu88seeoujm3gNCs/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/93/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/Pu88seeoujm3gNCs/" class="link-compare"><span>Add to Compare</span></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -129,7 +114,7 @@
                                         <div class="owl-item" style="width: 257px;">
                                             <div class="carousel_col">
                                                 <div class="item index_item" itemscope="" itemtype="http://schema.org/product">
-                                                    <div class="item_placeholder"></div>
+                                                    <div class="item_placeholder" style="height: 0px;"></div>
                                                     <div class="item_wrap">
                                                         <div class="product-image-container" style="height: 281px;">
                                                             <div class="label-product">
@@ -173,10 +158,10 @@
                                                                 <span class="amount"><a href="#" onclick="var t = opener ? opener.window : window; t.location.href = 'http://ld-magento.template-help.com/magento_58878/review/product/list/id/103/'; return false;">1 Review(s)</a></span>
                                                             </div>
                                                             <div class="actions">
-                                                                <a href="http://ld-magento.template-help.com/magento_58878/checkout/cart/add/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/product/103/form_key/6eR9EBgdz34WBS6H/" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
+                                                                <a href="http://ld-magento.template-help.com/magento_58878/checkout/cart/add/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/product/103/form_key/Pu88seeoujm3gNCs/" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
                                                                 <ul class="add-to-links">
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/103/form_key/6eR9EBgdz34WBS6H/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/103/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/6eR9EBgdz34WBS6H/" class="link-compare"><span>Add to Compare</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/103/form_key/Pu88seeoujm3gNCs/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/103/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/Pu88seeoujm3gNCs/" class="link-compare"><span>Add to Compare</span></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -217,10 +202,10 @@
                                                                 <span class="amount"><a href="#" onclick="var t = opener ? opener.window : window; t.location.href = 'http://ld-magento.template-help.com/magento_58878/review/product/list/id/82/'; return false;">1 Review(s)</a></span>
                                                             </div>
                                                             <div class="actions">
-                                                                <a href="http://ld-magento.template-help.com/magento_58878/checkout/cart/add/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/product/82/form_key/6eR9EBgdz34WBS6H/" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
+                                                                <a href="http://ld-magento.template-help.com/magento_58878/checkout/cart/add/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/product/82/form_key/Pu88seeoujm3gNCs/" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
                                                                 <ul class="add-to-links">
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/82/form_key/6eR9EBgdz34WBS6H/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/82/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/6eR9EBgdz34WBS6H/" class="link-compare"><span>Add to Compare</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/82/form_key/Pu88seeoujm3gNCs/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/82/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/Pu88seeoujm3gNCs/" class="link-compare"><span>Add to Compare</span></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -231,7 +216,7 @@
                                         <div class="owl-item" style="width: 257px;">
                                             <div class="carousel_col">
                                                 <div class="item index_item" itemscope="" itemtype="http://schema.org/product">
-                                                    <div class="item_placeholder"></div>
+                                                    <div class="item_placeholder" style="height: 0px;"></div>
                                                     <div class="item_wrap">
                                                         <div class="product-image-container" style="height: 281px;">
                                                             <div class="label-product"></div>
@@ -267,8 +252,8 @@
                                                             <div class="actions">
                                                                 <a href="http://ld-magento.template-help.com/magento_58878/square-pocket-jeans.html" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
                                                                 <ul class="add-to-links">
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/99/form_key/6eR9EBgdz34WBS6H/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/99/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/6eR9EBgdz34WBS6H/" class="link-compare"><span>Add to Compare</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/99/form_key/Pu88seeoujm3gNCs/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/99/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/Pu88seeoujm3gNCs/" class="link-compare"><span>Add to Compare</span></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -300,10 +285,10 @@
                                                                 </p>
                                                             </div>
                                                             <div class="actions">
-                                                                <a href="http://ld-magento.template-help.com/magento_58878/checkout/cart/add/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/product/101/form_key/6eR9EBgdz34WBS6H/" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
+                                                                <a href="http://ld-magento.template-help.com/magento_58878/checkout/cart/add/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/product/101/form_key/Pu88seeoujm3gNCs/" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
                                                                 <ul class="add-to-links">
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/101/form_key/6eR9EBgdz34WBS6H/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/101/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/6eR9EBgdz34WBS6H/" class="link-compare"><span>Add to Compare</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/101/form_key/Pu88seeoujm3gNCs/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/101/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/Pu88seeoujm3gNCs/" class="link-compare"><span>Add to Compare</span></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -331,8 +316,8 @@
                                                             <div class="actions">
                                                                 <a title="View Details" class="btns_info" href="http://ld-magento.template-help.com/magento_58878/five-pocket-trousers.html"><span class="fa fa-info"></span></a>
                                                                 <ul class="add-to-links">
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/73/form_key/6eR9EBgdz34WBS6H/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/73/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/6eR9EBgdz34WBS6H/" class="link-compare"><span>Add to Compare</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/73/form_key/Pu88seeoujm3gNCs/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/73/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/Pu88seeoujm3gNCs/" class="link-compare"><span>Add to Compare</span></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -356,8 +341,8 @@
                                                             <div class="actions">
                                                                 <a title="View Details" class="btns_info" href="http://ld-magento.template-help.com/magento_58878/full-top-with-halter-neck.html"><span class="fa fa-info"></span></a>
                                                                 <ul class="add-to-links">
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/94/form_key/6eR9EBgdz34WBS6H/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/94/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/6eR9EBgdz34WBS6H/" class="link-compare"><span>Add to Compare</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/94/form_key/Pu88seeoujm3gNCs/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/94/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/Pu88seeoujm3gNCs/" class="link-compare"><span>Add to Compare</span></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -387,8 +372,8 @@
                                                             <div class="actions">
                                                                 <a href="http://ld-magento.template-help.com/magento_58878/striped-cotton-shirt.html" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
                                                                 <ul class="add-to-links">
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/100/form_key/6eR9EBgdz34WBS6H/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/100/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/6eR9EBgdz34WBS6H/" class="link-compare"><span>Add to Compare</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/100/form_key/Pu88seeoujm3gNCs/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/100/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/Pu88seeoujm3gNCs/" class="link-compare"><span>Add to Compare</span></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -439,10 +424,10 @@
                                                                 <span class="amount"><a href="#" onclick="var t = opener ? opener.window : window; t.location.href = 'http://ld-magento.template-help.com/magento_58878/review/product/list/id/102/'; return false;">1 Review(s)</a></span>
                                                             </div>
                                                             <div class="actions">
-                                                                <a href="http://ld-magento.template-help.com/magento_58878/checkout/cart/add/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/product/102/form_key/6eR9EBgdz34WBS6H/" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
+                                                                <a href="http://ld-magento.template-help.com/magento_58878/checkout/cart/add/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/product/102/form_key/Pu88seeoujm3gNCs/" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
                                                                 <ul class="add-to-links">
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/102/form_key/6eR9EBgdz34WBS6H/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/102/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/6eR9EBgdz34WBS6H/" class="link-compare"><span>Add to Compare</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/102/form_key/Pu88seeoujm3gNCs/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/102/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/Pu88seeoujm3gNCs/" class="link-compare"><span>Add to Compare</span></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -478,10 +463,10 @@
                                                                 </p>
                                                             </div>
                                                             <div class="actions">
-                                                                <a href="http://ld-magento.template-help.com/magento_58878/checkout/cart/add/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/product/84/form_key/6eR9EBgdz34WBS6H/" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
+                                                                <a href="http://ld-magento.template-help.com/magento_58878/checkout/cart/add/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/product/84/form_key/Pu88seeoujm3gNCs/" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
                                                                 <ul class="add-to-links">
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/84/form_key/6eR9EBgdz34WBS6H/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/84/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/6eR9EBgdz34WBS6H/" class="link-compare"><span>Add to Compare</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/84/form_key/Pu88seeoujm3gNCs/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/84/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/Pu88seeoujm3gNCs/" class="link-compare"><span>Add to Compare</span></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -534,8 +519,8 @@
                                                             <div class="actions">
                                                                 <a href="http://ld-magento.template-help.com/magento_58878/striped-cotton-blazer.html" class="btns_cart" title="Add to Cart"><span class="fl-line-icon-set-shopping63"></span></a>
                                                                 <ul class="add-to-links">
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/80/form_key/6eR9EBgdz34WBS6H/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
-                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/80/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/6eR9EBgdz34WBS6H/" class="link-compare"><span>Add to Compare</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/wishlist/index/add/product/80/form_key/Pu88seeoujm3gNCs/" class="link-wishlist"><span>Add to Wishlist</span></a></li>
+                                                                    <li><a href="http://ld-magento.template-help.com/magento_58878/catalog/product_compare/add/product/80/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODg3OC8,/form_key/Pu88seeoujm3gNCs/" class="link-compare"><span>Add to Compare</span></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
