@@ -5,7 +5,7 @@
                 <li class="level nav-1 first  no-level-thumbnail ">
                     <a style="background-color:" href="http://ld-magento.template-help.com/magento_58878/men.html">
                         <div class="thumbnail"></div>
-                        <span style="color:;  ">Men</span>
+                        <span>Men</span>
                     </a>
                     <div class="level-top">
                         <div class="level  column1" style="width:1150px;">
@@ -18,7 +18,7 @@
                 <li class="level nav-2  no-level-thumbnail ">
                     <a style="background-color:" href="http://ld-magento.template-help.com/magento_58878/women.html">
                         <div class="thumbnail"></div>
-                        <span style="color:;  ">Women<span class="cat-label pin-bottom"><i>new</i></span></span>
+                        <span>Women<span class="cat-label pin-bottom"><i>new</i></span></span>
                     </a>
                     <div class="level-top">
                         <div class="level  column1" style="width:1150px;">
@@ -31,7 +31,7 @@
                 <li class="level nav-3  no-level-thumbnail ">
                     <a style="background-color:" href="http://ld-magento.template-help.com/magento_58878/kids.html">
                         <div class="thumbnail"></div>
-                        <span style="color:;  ">Kids</span>
+                        <span>Kids</span>
                     </a>
                     <div class="level-top">
                         <div class="level  column1" style="width:1150px;">
@@ -44,7 +44,7 @@
                 <li class="level nav-4 parent  no-level-thumbnail ">
                     <a style="background-color:" href="http://ld-magento.template-help.com/magento_58878/collections.html">
                         <div class="thumbnail"></div>
-                        <span style="color:;">Collections</span><span class="spanchildren"></span>
+                        <span>Collections</span><span class="spanchildren"></span>
                     </a>
                     <div class="level-top">
                         <div class="level  column1" style="width:1150px;">
@@ -55,7 +55,7 @@
                                             <div class="level1 nav-4-1 first parent item  no-level-thumbnail " style="width:100%;">
                                                 <a style=" " class="catagory-level1" href="http://ld-magento.template-help.com/magento_58878/collections/tops.html">
                                                     <div class="thumbnail"></div>
-                                                    <span style="color:;">Tops</span><span class="spanchildren"></span>
+                                                    <span>Tops</span><span class="spanchildren"></span>
                                                 </a>
                                                 <div class="level-top">
                                                     <div class="level1  column1">
@@ -64,7 +64,7 @@
                                                                 <div class="level2 nav-4-1-1 first  no-level-thumbnail ">
                                                                     <a style="background-color:" href="http://ld-magento.template-help.com/magento_58878/collections/tops/blouses-shirts.html">
                                                                         <div class="thumbnail"></div>
-                                                                        <span style="color:;  ">Blouses &amp; Shirts</span>
+                                                                        <span>Blouses &amp; Shirts</span>
                                                                     </a>
                                                                     <div class="level-top">
                                                                         <div class="level2  column1">
@@ -75,7 +75,7 @@
                                                                 <div class="level2 nav-4-1-2  no-level-thumbnail ">
                                                                     <a style="background-color:" href="http://ld-magento.template-help.com/magento_58878/collections/tops/dresses.html">
                                                                         <div class="thumbnail"></div>
-                                                                        <span style="color:;  ">Dresses</span>
+                                                                        <span>Dresses</span>
                                                                     </a>
                                                                     <div class="level-top">
                                                                         <div class="level2  column1">
@@ -86,7 +86,7 @@
                                                                 <div class="level2 nav-4-1-3  no-level-thumbnail ">
                                                                     <a style="background-color:" href="http://ld-magento.template-help.com/magento_58878/collections/tops/tops-t-shirts.html">
                                                                         <div class="thumbnail"></div>
-                                                                        <span style="color:;  ">Tops &amp; T-shirts</span>
+                                                                        <span>Tops &amp; T-shirts</span>
                                                                     </a>
                                                                     <div class="level-top">
                                                                         <div class="level2  column1">
@@ -97,7 +97,7 @@
                                                                 <div class="level2 nav-4-1-4  no-level-thumbnail ">
                                                                     <a style="background-color:" href="http://ld-magento.template-help.com/magento_58878/collections/tops/sweaters-cardigans.html">
                                                                         <div class="thumbnail"></div>
-                                                                        <span style="color:;  ">Sweaters &amp; Cardigans</span>
+                                                                        <span>Sweaters &amp; Cardigans</span>
                                                                     </a>
                                                                     <div class="level-top">
                                                                         <div class="level2  column1">
@@ -108,7 +108,7 @@
                                                                 <div class="level2 nav-4-1-5  no-level-thumbnail ">
                                                                     <a style="background-color:" href="http://ld-magento.template-help.com/magento_58878/collections/tops/jackets.html">
                                                                         <div class="thumbnail"></div>
-                                                                        <span style="color:;  ">Jackets</span>
+                                                                        <span>Jackets</span>
                                                                     </a>
                                                                     <div class="level-top">
                                                                         <div class="level2  column1">
@@ -119,7 +119,7 @@
                                                                 <div class="level2 nav-4-1-6 last  no-level-thumbnail ">
                                                                     <a style="background-color:" href="http://ld-magento.template-help.com/magento_58878/collections/tops/outerwear.html">
                                                                         <div class="thumbnail"></div>
-                                                                        <span style="color:;  ">Outerwear</span>
+                                                                        <span>Outerwear</span>
                                                                     </a>
                                                                     <div class="level-top">
                                                                         <div class="level2  column1">
@@ -136,7 +136,7 @@
                                             <div class="level1 nav-4-2 last parent item  no-level-thumbnail " style="width:100%;">
                                                 <a style=" " class="catagory-level1" href="http://ld-magento.template-help.com/magento_58878/collections/bottoms.html">
                                                     <div class="thumbnail"></div>
-                                                    <span style="color:;">Bottoms</span><span class="spanchildren"></span>
+                                                    <span>Bottoms</span><span class="spanchildren"></span>
                                                 </a>
                                                 <div class="level-top">
                                                     <div class="level1  column1">
@@ -145,7 +145,7 @@
                                                                 <div class="level2 nav-4-2-7 first  no-level-thumbnail ">
                                                                     <a style="background-color:" href="http://ld-magento.template-help.com/magento_58878/collections/bottoms/trousers.html">
                                                                         <div class="thumbnail"></div>
-                                                                        <span style="color:;  ">Trousers</span>
+                                                                        <span>Trousers</span>
                                                                     </a>
                                                                     <div class="level-top">
                                                                         <div class="level2  column1">
@@ -156,7 +156,7 @@
                                                                 <div class="level2 nav-4-2-8  no-level-thumbnail ">
                                                                     <a style="background-color:" href="http://ld-magento.template-help.com/magento_58878/collections/bottoms/jeans.html">
                                                                         <div class="thumbnail"></div>
-                                                                        <span style="color:;  ">Jeans</span>
+                                                                        <span>Jeans</span>
                                                                     </a>
                                                                     <div class="level-top">
                                                                         <div class="level2  column1">
@@ -167,7 +167,7 @@
                                                                 <div class="level2 nav-4-2-9  no-level-thumbnail ">
                                                                     <a style="background-color:" href="http://ld-magento.template-help.com/magento_58878/collections/bottoms/leggings.html">
                                                                         <div class="thumbnail"></div>
-                                                                        <span style="color:;  ">Leggings</span>
+                                                                        <span>Leggings</span>
                                                                     </a>
                                                                     <div class="level-top">
                                                                         <div class="level2  column1">
@@ -178,7 +178,7 @@
                                                                 <div class="level2 nav-4-2-10 last  no-level-thumbnail ">
                                                                     <a style="background-color:" href="http://ld-magento.template-help.com/magento_58878/collections/bottoms/skirts.html">
                                                                         <div class="thumbnail"></div>
-                                                                        <span style="color:;  ">Skirts</span>
+                                                                        <span>Skirts</span>
                                                                     </a>
                                                                     <div class="level-top">
                                                                         <div class="level2  column1">
@@ -203,7 +203,7 @@
                 <li class="level nav-5  no-level-thumbnail ">
                     <a style="background-color:" href="http://ld-magento.template-help.com/magento_58878/accessories.html">
                         <div class="thumbnail"></div>
-                        <span style="color:;  ">Accessories<span class="cat-label pin-bottom">sale</span></span>
+                        <span>Accessories<span class="cat-label pin-bottom">sale</span></span>
                     </a>
                     <div class="level-top">
                         <div class="level  column1" style="width:1150px;">
@@ -216,7 +216,7 @@
                 <li class="level nav-6 last  no-level-thumbnail ">
                     <a style="background-color:" href="http://ld-magento.template-help.com/magento_58878/footwear.html">
                         <div class="thumbnail"></div>
-                        <span style="color:;  ">Footwear</span>
+                        <span>Footwear</span>
                     </a>
                     <div class="level-top">
                         <div class="level  column1" style="width:1150px;">

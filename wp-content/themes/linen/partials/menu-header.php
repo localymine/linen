@@ -1,12 +1,12 @@
 <div class="skip-links2"> <span class="skip-link2 skip-account2"></span></div>
 <div id="header-account2" class="skip-content2">
-    <?php // get_template_part('p-header-account') ?>
+    <?php get_template_part('partials/em/header','account') ?>
 </div> <!-- //END header-account -->
 
 <header id="header" class="page-header">
 
     <div class="header-row-background">
-        <?php // get_template_part('p-header-pc-row') ?>
+        <?php get_template_part('partials/em/header','pc-row') ?>
     </div>
 
     <div class="container">
@@ -15,10 +15,10 @@
                 <img src="http://ld-magento.template-help.com/magento_58878/skin/frontend/tm_themes/theme348k/images/logo.png" alt="Magento Commerce">
             </a>
             <div class="head_holder">
-                <?php // get_template_part('p-header-pc-account-menu') ?>
+                <?php get_template_part('partials/em/header','pc-account-menu') ?>
             </div>
             <div class="header-search desktop">
-                <?php // get_template_part('p-search-form-pc') ?>
+                <?php get_template_part('partials/em/header','search-form-pc') ?>
             </div>
         </div>
     </div>
@@ -76,16 +76,11 @@
                     <span class="label">Menu</span>
                 </a>
 
-                <?php // get_template_part('p-search-form-sp') ?>
+                <?php get_template_part('partials/em/header','search-form-sp') ?>
 
-                <?php // get_template_part('p-header-sp') ?>
+                <?php get_template_part('partials/em/header','sp') ?>
 
             </div>
         </div>
     </div>
 </header>
-
-<?php // get_template_part('p-header-slider') ?>
-
-<?php
-// get_template_part('p-index-banners') ?>

@@ -5,7 +5,7 @@
                 <div class="padding-s">
                     <?php
                     // TODO message
-//                    get_template_part('p-register-validation-message') 
+                    get_template_part('partials/em/register','validation-message');
                     ?>
                     <div class="widget widget-new-products">
                         <div class="widget-title">
