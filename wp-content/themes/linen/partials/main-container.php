@@ -15,16 +15,64 @@
                             <a class="btns prev_new"><span class="material-design-keyboard54"></span></a>
                             <a class="btns next_new"><span class="material-design-keyboard53"></span></a>
                         </div>
+                        
                         <div class="owl-carousel-wrapper owl-new-products products-grid">
-                            <div class="owl-carousel owl-new owl-theme" id="owl-new-products" style="opacity: 1; display: block;">
+                            <div class="owl-carousel owl-new owl-theme owl-loaded" id="owl-new-products">
+                                <!--<div class="owl-wrapper-outer">-->
+                                    
+                                    <div class="owl-item">
+                                        <div class="item index_item-del">
+                                            <!--<div class="item_placeholder"></div>-->
+                                            <!--<div class="item_wrap">-->
+                                                <!--<div class="product-image-container">-->
+                                                    <!--<a href="#" title="Suit blazer" class="product-image" itemprop="url">-->
+                                                    <img id="product-collection-image-83" src="https://dummyimage.com/360x446/73D7CC" alt="Suit blazer" width="360" height="446" itemprop="image">
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        </div>
+                                        <div class="item index_item-del">
+                                            <!--<div class="item_placeholder"></div>-->
+                                            <!--<div class="item_wrap">-->
+                                                <!--<div class="product-image-container">-->
+                                                    <!--<a href="#" title="Suit blazer" class="product-image" itemprop="url">-->
+                                                    <img id="product-collection-image-83" src="https://dummyimage.com/360x446/F58AB7" alt="Suit blazer" width="360" height="446" itemprop="image">
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        </div>
+                                        <div class="item index_item-del">
+                                            <!--<div class="item_placeholder"></div>-->
+                                            <!--<div class="item_wrap">-->
+                                                <!--<div class="product-image-container">-->
+                                                    <!--<a href="#" title="Suit blazer" class="product-image" itemprop="url">-->
+                                                    <img id="product-collection-image-83" src="https://dummyimage.com/360x446/F58287" alt="Suit blazer" width="360" height="446" itemprop="image">
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        </div>
+                                        <div class="item index_item-del">
+                                            <!--<div class="item_placeholder"></div>-->
+                                            <!--<div class="item_wrap">-->
+                                                <!--<div class="product-image-container">-->
+                                                    <!--<a href="#" title="Suit blazer" class="product-image" itemprop="url">-->
+                                                    <img id="product-collection-image-83" src="https://dummyimage.com/360x446/F58287" alt="Suit blazer" width="360" height="446" itemprop="image">
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        </div>
+                                    </div> <!-- end 1 -->
+
+                            <!--</div>-->
+                        </div>
+                        
+                        <!--
+                        <div class="owl-carousel-wrapper owl-new-products products-grid">
+                            <div class="owl-carousel owl-new owl-theme" id="owl-new-products">
                                 <div class="owl-wrapper-outer">
-                                    <div class="owl-wrapper" style="width: 3084px; left: 0px; display: block;">
-                                        <div class="owl-item" style="width: 257px;">
+                                    <div class="owl-wrapper">
+                                        <div class="owl-item">
                                             <div class="carousel_col">
                                                 <div class="item index_item" itemscope="" itemtype="http://schema.org/product">
-                                                    <div class="item_placeholder" style="height: 0px;"></div>
+                                                    <div class="item_placeholder"></div>
                                                     <div class="item_wrap">
-                                                        <div class="product-image-container" style="height: 281px;">
+                                                        <div class="product-image-container">
                                                             <div class="label-product"></div>
                                                             <a href="http://ld-magento.template-help.com/magento_58878/suit-blazer.html" title="Suit blazer" class="product-image" itemprop="url">
                                                                 <img id="product-collection-image-83" src="http://ld-magento.template-help.com/magento_58878/media/catalog/product/cache/1/small_image/360x446/9df78eab33525d08d6e5fb8d27136e95/s/u/suit_blazer.jpg" alt="Suit blazer" width="360" height="446" itemprop="image">
@@ -43,7 +91,7 @@
                                                                     <i class="review-icon"></i>
                                                                     <i class="review-icon"></i>
                                                                     <i class="review-icon"></i>
-                                                                    <div class="rating" style="width:80%">
+                                                                    <div class="rating">
                                                                         <div class="mask">
                                                                             <i class="review-icon"></i>
                                                                             <i class="review-icon"></i>
@@ -68,7 +116,7 @@
                                                 <div class="item index_item" itemscope="" itemtype="http://schema.org/product">
                                                     <div class="item_placeholder"></div>
                                                     <div class="item_wrap">
-                                                        <div class="product-image-container" style="height: 281px;">
+                                                        <div class="product-image-container">
                                                             <div class="label-product"></div>
                                                             <a href="http://ld-magento.template-help.com/magento_58878/free-spirit-jeans.html" title="Free spirit jeans" class="product-image" itemprop="url">
                                                                 <img id="product-collection-image-93" src="http://ld-magento.template-help.com/magento_58878/media/catalog/product/cache/1/small_image/360x446/9df78eab33525d08d6e5fb8d27136e95/f/r/free_spirit_jeans.jpg" alt="Free spirit jeans" width="360" height="446" itemprop="image">
@@ -87,7 +135,7 @@
                                                                     <i class="review-icon"></i>
                                                                     <i class="review-icon"></i>
                                                                     <i class="review-icon"></i>
-                                                                    <div class="rating" style="width:60%">
+                                                                    <div class="rating">
                                                                         <div class="mask">
                                                                             <i class="review-icon"></i>
                                                                             <i class="review-icon"></i>
@@ -111,12 +159,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="owl-item" style="width: 257px;">
+                                        <div class="owl-item">
                                             <div class="carousel_col">
                                                 <div class="item index_item" itemscope="" itemtype="http://schema.org/product">
-                                                    <div class="item_placeholder" style="height: 0px;"></div>
+                                                    <div class="item_placeholder"></div>
                                                     <div class="item_wrap">
-                                                        <div class="product-image-container" style="height: 281px;">
+                                                        <div class="product-image-container">
                                                             <div class="label-product">
                                                                 <span class="new">New</span>                            <span class="sale">Sale</span>
                                                             </div>
@@ -145,7 +193,7 @@
                                                                     <i class="review-icon"></i>
                                                                     <i class="review-icon"></i>
                                                                     <i class="review-icon"></i>
-                                                                    <div class="rating" style="width:80%">
+                                                                    <div class="rating">
                                                                         <div class="mask">
                                                                             <i class="review-icon"></i>
                                                                             <i class="review-icon"></i>
@@ -170,7 +218,7 @@
                                                 <div class="item index_item" itemscope="" itemtype="http://schema.org/product">
                                                     <div class="item_placeholder"></div>
                                                     <div class="item_wrap">
-                                                        <div class="product-image-container" style="height: 281px;">
+                                                        <div class="product-image-container">
                                                             <div class="label-product"></div>
                                                             <a href="http://ld-magento.template-help.com/magento_58878/structured-blazer.html" title="Structured blazer" class="product-image" itemprop="url">
                                                                 <img id="product-collection-image-82" src="http://ld-magento.template-help.com/magento_58878/media/catalog/product/cache/1/small_image/360x446/9df78eab33525d08d6e5fb8d27136e95/s/t/structured_blazer_2.jpg" alt="Structured blazer" width="360" height="446" itemprop="image">
@@ -189,7 +237,7 @@
                                                                     <i class="review-icon"></i>
                                                                     <i class="review-icon"></i>
                                                                     <i class="review-icon"></i>
-                                                                    <div class="rating" style="width:80%">
+                                                                    <div class="rating">
                                                                         <div class="mask">
                                                                             <i class="review-icon"></i>
                                                                             <i class="review-icon"></i>
@@ -213,12 +261,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="owl-item" style="width: 257px;">
+                                        <div class="owl-item">
                                             <div class="carousel_col">
                                                 <div class="item index_item" itemscope="" itemtype="http://schema.org/product">
-                                                    <div class="item_placeholder" style="height: 0px;"></div>
+                                                    <div class="item_placeholder"></div>
                                                     <div class="item_wrap">
-                                                        <div class="product-image-container" style="height: 281px;">
+                                                        <div class="product-image-container">
                                                             <div class="label-product"></div>
                                                             <a href="http://ld-magento.template-help.com/magento_58878/square-pocket-jeans.html" title="Square pocket jeans" class="product-image" itemprop="url">
                                                                 <img id="product-collection-image-99" src="http://ld-magento.template-help.com/magento_58878/media/catalog/product/cache/1/small_image/360x446/9df78eab33525d08d6e5fb8d27136e95/s/q/square_pocket_jeans_2.jpg" alt="Square pocket jeans" width="360" height="446" itemprop="image">
@@ -237,7 +285,7 @@
                                                                     <i class="review-icon"></i>
                                                                     <i class="review-icon"></i>
                                                                     <i class="review-icon"></i>
-                                                                    <div class="rating" style="width:100%">
+                                                                    <div class="rating">
                                                                         <div class="mask">
                                                                             <i class="review-icon"></i>
                                                                             <i class="review-icon"></i>
@@ -262,7 +310,7 @@
                                                 <div class="item index_item" itemscope="" itemtype="http://schema.org/product">
                                                     <div class="item_placeholder"></div>
                                                     <div class="item_wrap">
-                                                        <div class="product-image-container" style="height: 281px;">
+                                                        <div class="product-image-container">
                                                             <div class="label-product">
                                                                 <span class="sale">Sale</span>
                                                             </div>
@@ -296,12 +344,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="owl-item" style="width: 257px;">
+                                        <div class="owl-item">
                                             <div class="carousel_col">
                                                 <div class="item index_item" itemscope="" itemtype="http://schema.org/product">
                                                     <div class="item_placeholder"></div>
                                                     <div class="item_wrap">
-                                                        <div class="product-image-container" style="height: 281px;">
+                                                        <div class="product-image-container">
                                                             <div class="label-product"></div>
                                                             <a href="http://ld-magento.template-help.com/magento_58878/five-pocket-trousers.html" title="Five-pocket trousers" class="product-image" itemprop="url">
                                                                 <img id="product-collection-image-73" src="http://ld-magento.template-help.com/magento_58878/media/catalog/product/cache/1/small_image/360x446/9df78eab33525d08d6e5fb8d27136e95/f/i/five-pocket_trousers.jpg" alt="Five-pocket trousers" width="360" height="446" itemprop="image">
@@ -326,7 +374,7 @@
                                                 <div class="item index_item" itemscope="" itemtype="http://schema.org/product">
                                                     <div class="item_placeholder"></div>
                                                     <div class="item_wrap">
-                                                        <div class="product-image-container" style="height: 281px;">
+                                                        <div class="product-image-container">
                                                             <div class="label-product"></div>
                                                             <a href="http://ld-magento.template-help.com/magento_58878/full-top-with-halter-neck.html" title="Full top with halter neck" class="product-image" itemprop="url">
                                                                 <img id="product-collection-image-94" src="http://ld-magento.template-help.com/magento_58878/media/catalog/product/cache/1/small_image/360x446/9df78eab33525d08d6e5fb8d27136e95/h/a/halter_neck_crop_top_2.jpg" alt="Full top with halter neck" width="360" height="446" itemprop="image">
@@ -350,12 +398,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="owl-item" style="width: 257px;">
+                                        <div class="owl-item">
                                             <div class="carousel_col">
                                                 <div class="item index_item" itemscope="" itemtype="http://schema.org/product">
                                                     <div class="item_placeholder"></div>
                                                     <div class="item_wrap">
-                                                        <div class="product-image-container" style="height: 281px;">
+                                                        <div class="product-image-container">
                                                             <div class="label-product">
                                                                 <span class="new">New</span>
                                                             </div>
@@ -382,7 +430,7 @@
                                                 <div class="item index_item" itemscope="" itemtype="http://schema.org/product">
                                                     <div class="item_placeholder"></div>
                                                     <div class="item_wrap">
-                                                        <div class="product-image-container" style="height: 281px;">
+                                                        <div class="product-image-container">
                                                             <div class="label-product">
                                                                 <span class="sale">Sale</span>
                                                             </div>
@@ -411,7 +459,7 @@
                                                                     <i class="review-icon"></i>
                                                                     <i class="review-icon"></i>
                                                                     <i class="review-icon"></i>
-                                                                    <div class="rating" style="width:100%">
+                                                                    <div class="rating">
                                                                         <div class="mask">
                                                                             <i class="review-icon"></i>
                                                                             <i class="review-icon"></i>
@@ -435,12 +483,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="owl-item" style="width: 257px;">
+                                        <div class="owl-item">
                                             <div class="carousel_col">
                                                 <div class="item index_item" itemscope="" itemtype="http://schema.org/product">
                                                     <div class="item_placeholder"></div>
                                                     <div class="item_wrap">
-                                                        <div class="product-image-container" style="height: 281px;">
+                                                        <div class="product-image-container">
                                                             <div class="label-product">
                                                                 <span class="sale">Sale</span>
                                                             </div>
@@ -475,7 +523,7 @@
                                                 <div class="item index_item" itemscope="" itemtype="http://schema.org/product">
                                                     <div class="item_placeholder"></div>
                                                     <div class="item_wrap">
-                                                        <div class="product-image-container" style="height: 281px;">
+                                                        <div class="product-image-container">
                                                             <div class="label-product">
                                                                 <span class="new">New</span>
                                                             </div>
@@ -504,7 +552,7 @@
                                                                     <i class="review-icon"></i>
                                                                     <i class="review-icon"></i>
                                                                     <i class="review-icon"></i>
-                                                                    <div class="rating" style="width:100%">
+                                                                    <div class="rating">
                                                                         <div class="mask">
                                                                             <i class="review-icon"></i>
                                                                             <i class="review-icon"></i>
@@ -532,6 +580,8 @@
                                 </div>
                             </div>
                         </div>
+                        -->
+                        
                     </div>
                 </div>
             </div>
