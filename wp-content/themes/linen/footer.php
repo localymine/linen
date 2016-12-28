@@ -150,7 +150,7 @@ jQuery(function(){
 jQuery(document)
     .ready(function() {
         var owl = jQuery("#owl-new-products .owl-carousel");
-        $(".owl-carousel").owlCarousel({
+        jQuery(".owl-carousel").owlCarousel({
             loop:true,
             margin:10,
             nav:true,
