@@ -149,22 +149,16 @@ jQuery(function(){
 <script>
 jQuery(document)
     .ready(function() {
-        var owl = jQuery("#owl-new-products .owl-carousel");
-        jQuery(".owl-carousel").owlCarousel({
-            loop:true,
-            margin:10,
-            nav:true,
-            responsive:{
-                0:{
-                    items:1
-                },
-                600:{
-                    items:3
-                },
-                1000:{
-                    items:5
-                }
-            }
+        
+        var owl = jQuery("#owl-new-products");
+        owl.owlCarousel({
+            autoHeight: false,
+            pagination: false,
+            items: 4,
+            itemsDesktop: [1199, 3],
+            itemsDesktopSmall: [991, 3],
+            itemsTablet: [768, 2],
+            itemsMobile: [479, 1]
         });
 
         function MageResize() {
