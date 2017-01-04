@@ -215,20 +215,7 @@ jQuery(".prev_blog").click(function(){owl.trigger('owl.prev');})});</script>
 <script>
 jQuery(document)
     .ready(function() {
-        
-        function fixOwl(){
-            var $stage = $('.owl-stage'),
-                stageW = $stage.width(),
-                $el = $('.owl-item'),
-                elW = 0;
-            $el.each(function() {
-                elW += $(this).width()+ +($(this).css("margin-right").slice(0, -2))
-            });
-            if ( elW > stageW ) {
-                $stage.width( elW );
-            };
-        }
-        
+
         var owl = jQuery("#owl-testimonials");
         owl.owlCarousel({
             autoHeight: false,
