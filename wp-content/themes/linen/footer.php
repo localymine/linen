@@ -125,7 +125,6 @@
 </script>
 <script type="text/javascript">var Translator = new Translate([]);</script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/assets/js/camera.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/assets/js/owlcarousel/1.3.3/owl.carousel.min.js"></script>
 <script type="text/javascript">
 jQuery(function(){
     jQuery('#camera_wrap').camera({

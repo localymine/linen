@@ -32,9 +32,6 @@ lang="en" id="top" class="no-js ie9"> <![endif]-->
         <style>body{min-width:960px !important}</style>
         <![endif]-->
         <!-- Owl Stylesheets -->
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/js/owlcarousel/1.1.3/owl.carousel.min.css">
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/js/owlcarousel/1.1.3/owl.theme.min.css">
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/js/owlcarousel/1.1.3/owl.transitions.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/assets/css/base.css" media="all">
         <link href="http://ld-magento.template-help.com/magento_58878/blog/rss/index/store_id/1/" title="Blog" rel="alternate" type="application/rss+xml">
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic&amp;subset=latin,cyrillic">
