@@ -9,63 +9,64 @@
                 <a class="btns next_blog"><span class="material-design-keyboard53"></span></a>
             </div>
             <div class="owl-carousel-wrapper">
-                <ul class="owl-carousel owl-blog owl-theme" id="owl-blog" style="opacity: 1; display: block;">
-                    <div class="owl-wrapper-outer">
-                        <div class="owl-wrapper" style="width: 4112px; left: 0px; display: block; transition: all 0ms ease; transform: translate3d(0px, 0px, 0px);">
-                            <div class="owl-item" style="width: 514px;">
-                                <li class="blog_item">
-                                    <div class="postImage"><a href="http://ld-magento.template-help.com/magento_58878/blog/post-4/"><span></span><img src="http://ld-magento.template-help.com/magento_58878/skin/frontend/tm_themes/theme348k/images/media/post-4.jpg" alt="post-img"></a></div>
-                                    <div class="post_holder">
-                                        <div class="post_date">20. 05. 2016</div>
-                                        <div class="post_title"><a href="http://ld-magento.template-help.com/magento_58878/blog/post-4/">Establishing Your Brand  on College Campuses</a></div>
-                                        <div class="postContent">
-                                            <p>
-                                                Your Mantras you may be wondering if you have the necessary skills, time, connections, and a million
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
+                <ul class="owl-carousel owl-blog owl-theme" id="owl-blog">
+
+                    <div class="owl-item">
+                        <li class="blog_item">
+                            <div class="postImage"><a href="http://ld-magento.template-help.com/magento_58878/blog/post-4/"><span></span><img src="http://ld-magento.template-help.com/magento_58878/skin/frontend/tm_themes/theme348k/images/media/post-4.jpg" alt="post-img"></a></div>
+                            <div class="post_holder">
+                                <div class="post_date">20. 05. 2016</div>
+                                <div class="post_title"><a href="http://ld-magento.template-help.com/magento_58878/blog/post-4/">Establishing Your Brand  on College Campuses</a></div>
+                                <div class="postContent">
+                                    <p>
+                                        Your Mantras you may be wondering if you have the necessary skills, time, connections, and a million
+                                    </p>
+                                </div>
                             </div>
-                            <div class="owl-item" style="width: 514px;">
-                                <li class="blog_item">
-                                    <div class="postImage"><a href="http://ld-magento.template-help.com/magento_58878/blog/post-3/"><span></span><img src="http://ld-magento.template-help.com/magento_58878/skin/frontend/tm_themes/theme348k/images/media/post-3.jpg" alt="post-img"></a></div>
-                                    <div class="post_holder">
-                                        <div class="post_date">20. 05. 2016</div>
-                                        <div class="post_title"><a href="http://ld-magento.template-help.com/magento_58878/blog/post-3/">Believe in the Business of  Your Dreams</a></div>
-                                        <div class="postContent">
-                                            <p>Many students are cash-strapped, nowadays. Nevertheless, their purchasing power is very high. Research</p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </div>
-                            <div class="owl-item" style="width: 514px;">
-                                <li class="blog_item">
-                                    <div class="postImage"><a href="http://ld-magento.template-help.com/magento_58878/blog/post-2/"><span></span><img src="http://ld-magento.template-help.com/magento_58878/skin/frontend/tm_themes/theme348k/images/media/post-2.jpg" alt="post-img"></a></div>
-                                    <div class="post_holder">
-                                        <div class="post_date">28. 03. 2016</div>
-                                        <div class="post_title"><a href="http://ld-magento.template-help.com/magento_58878/blog/post-2/">Establishing Your Brand  on College Campuses</a></div>
-                                        <div class="postContent">
-                                            <p>
-                                                Your Mantras you may be wondering if you have the necessary skills, time, connections, and a million
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </div>
-                            <div class="owl-item" style="width: 514px;">
-                                <li class="blog_item">
-                                    <div class="postImage"><a href="http://ld-magento.template-help.com/magento_58878/blog/post-1/"><span></span><img src="http://ld-magento.template-help.com/magento_58878/skin/frontend/tm_themes/theme348k/images/media/post-1.jpg" alt="post-img"></a></div>
-                                    <div class="post_holder">
-                                        <div class="post_date">28. 03. 2016</div>
-                                        <div class="post_title"><a href="http://ld-magento.template-help.com/magento_58878/blog/post-1/">Believe in the Business  of Your Dreams</a></div>
-                                        <div class="postContent">
-                                            <p>Many students are cash-strapped, nowadays. Nevertheless, their purchasing power is very high. Research</p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </div>
-                        </div>
+                        </li>
                     </div>
+
+                    <div class="owl-item">
+                        <li class="blog_item">
+                            <div class="postImage"><a href="http://ld-magento.template-help.com/magento_58878/blog/post-3/"><span></span><img src="http://ld-magento.template-help.com/magento_58878/skin/frontend/tm_themes/theme348k/images/media/post-3.jpg" alt="post-img"></a></div>
+                            <div class="post_holder">
+                                <div class="post_date">20. 05. 2016</div>
+                                <div class="post_title"><a href="http://ld-magento.template-help.com/magento_58878/blog/post-3/">Believe in the Business of  Your Dreams</a></div>
+                                <div class="postContent">
+                                    <p>Many students are cash-strapped, nowadays. Nevertheless, their purchasing power is very high. Research</p>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+
+                    <div class="owl-item">
+                        <li class="blog_item">
+                            <div class="postImage"><a href="http://ld-magento.template-help.com/magento_58878/blog/post-2/"><span></span><img src="http://ld-magento.template-help.com/magento_58878/skin/frontend/tm_themes/theme348k/images/media/post-2.jpg" alt="post-img"></a></div>
+                            <div class="post_holder">
+                                <div class="post_date">28. 03. 2016</div>
+                                <div class="post_title"><a href="http://ld-magento.template-help.com/magento_58878/blog/post-2/">Establishing Your Brand  on College Campuses</a></div>
+                                <div class="postContent">
+                                    <p>
+                                        Your Mantras you may be wondering if you have the necessary skills, time, connections, and a million
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+
+                    <div class="owl-item">
+                        <li class="blog_item">
+                            <div class="postImage"><a href="http://ld-magento.template-help.com/magento_58878/blog/post-1/"><span></span><img src="http://ld-magento.template-help.com/magento_58878/skin/frontend/tm_themes/theme348k/images/media/post-1.jpg" alt="post-img"></a></div>
+                            <div class="post_holder">
+                                <div class="post_date">28. 03. 2016</div>
+                                <div class="post_title"><a href="http://ld-magento.template-help.com/magento_58878/blog/post-1/">Believe in the Business  of Your Dreams</a></div>
+                                <div class="postContent">
+                                    <p>Many students are cash-strapped, nowadays. Nevertheless, their purchasing power is very high. Research</p>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                    
                 </ul>
             </div>
         </div>

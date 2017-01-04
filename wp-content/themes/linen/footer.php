@@ -125,7 +125,7 @@
 </script>
 <script type="text/javascript">var Translator = new Translate([]);</script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/assets/js/camera.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/assets/js/owlcarousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/assets/js/owlcarousel/1.3.3/owl.carousel.min.js"></script>
 <script type="text/javascript">
 jQuery(function(){
     jQuery('#camera_wrap').camera({
@@ -152,6 +152,8 @@ jQuery(document)
         
         var owl = jQuery("#owl-new-products");
         owl.owlCarousel({
+            loop: true,
+            nav:false,
             autoHeight: false,
             pagination: false,
             items: 4,
@@ -211,8 +213,41 @@ jQuery(document)
 </script>
 <script>jQuery(document).ready(function(){var owl=jQuery("#owl-blog");owl.owlCarousel({autoHeight:false,pagination:false,items:2,itemsDesktop:[1199,2],itemsDesktopSmall:[991,2],itemsTablet:[767,1],itemsMobile:[479,1]});jQuery(".next_blog").click(function(){owl.trigger('owl.next');})
 jQuery(".prev_blog").click(function(){owl.trigger('owl.prev');})});</script>
-<script>jQuery(document).ready(function(){var owl=jQuery("#owl-testimonials");owl.owlCarousel({autoHeight:false,pagination:false,items:1});jQuery(".next_tes").click(function(){owl.trigger('owl.next');})
-jQuery(".prev_tes").click(function(){owl.trigger('owl.prev');})});</script>
+<script>
+jQuery(document)
+    .ready(function() {
+        
+        function fixOwl(){
+            var $stage = $('.owl-stage'),
+                stageW = $stage.width(),
+                $el = $('.owl-item'),
+                elW = 0;
+            $el.each(function() {
+                elW += $(this).width()+ +($(this).css("margin-right").slice(0, -2))
+            });
+            if ( elW > stageW ) {
+                $stage.width( elW );
+            };
+        }
+        
+        var owl = jQuery("#owl-testimonials");
+        owl.owlCarousel({
+            autoHeight: false,
+            autoWidth:true,
+            pagination: false,
+            items: 1
+        });
+        
+        jQuery(".next_tes")
+            .click(function() {
+                owl.trigger('owl.next');
+            })
+        jQuery(".prev_tes")
+            .click(function() {
+                owl.trigger('owl.prev');
+            })
+    });
+</script>
 <script type="text/javascript">var newsletterSubscriberFormDetail=new VarienForm('newsletter-validate-detail');document.getElementById("newsletter").setAttribute('autocapitalize','off');document.getElementById("newsletter").setAttribute('autocorrect','off');</script>
 
 <script type="text/javascript">var mdate = new Date();
