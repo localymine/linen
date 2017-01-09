@@ -11,8 +11,8 @@
 
     <div class="container">
         <div class="page-header-container">
-            <a class="logo" href="http://ld-magento.template-help.com/magento_58878/">
-                <img src="http://ld-magento.template-help.com/magento_58878/skin/frontend/tm_themes/theme348k/images/logo.png" alt="Magento Commerce">
+            <a class="logo" href="<?php _e(home_url()) ?>">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/images/logo.png" alt="Magento Commerce">
             </a>
             <div class="head_holder">
                 <?php get_template_part('partials/em/header','pc-account-menu') ?>

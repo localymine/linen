@@ -20,36 +20,37 @@ lang="en" id="top" class="no-js ie9"> <![endif]-->
         <meta name="keywords" content="Magento, Varien, E-commerce">
         <meta name="robots" content="INDEX,FOLLOW">
         <meta name="format-detection" content="telephone=no">
-        <link rel="icon" href="http://ld-magento.template-help.com/magento_58878/skin/frontend/tm_themes/theme348k/favicon.ico" type="image/x-icon">
-        <link rel="shortcut icon" href="http://ld-magento.template-help.com/magento_58878/skin/frontend/tm_themes/theme348k/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="<?php echo get_template_directory_uri() ?>/assets/images/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/assets/images/favicon.ico" type="image/x-icon">
         <!--[if lt IE 10]>
         <div
             style=' clear: both; text-align:center; position: relative; margin: 0 auto;'>
             <a
                 href="//windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode" style='display:inline-block; margin: 0 auto;'><img
-                src="http://ld-magento.template-help.com/magento_58878/skin/frontend/tm_themes/theme348k/images/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a>
+                src="<?php echo get_template_directory_uri() ?>/assets/images/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a>
         </div>
         <style>body{min-width:960px !important}</style>
         <![endif]-->
         <!-- Owl Stylesheets -->
-        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/assets/css/base.css" media="all">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/assets/css/base.css?<?php _e(md5(microtime())) ?>" media="all">
         <link href="http://ld-magento.template-help.com/magento_58878/blog/rss/index/store_id/1/" title="Blog" rel="alternate" type="application/rss+xml">
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic&amp;subset=latin,cyrillic">
         <!--[if  (lte IE 8) & (!IEMobile)]>
         <link
-            rel="stylesheet" type="text/css" href="http://ld-magento.template-help.com/magento_58878/media/css/97b61e9c7c2e4c35e93fe1e9040648f5.css" media="all" />
+            rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/assets/css/base.css?<?php _e(md5(microtime())) ?>" media="all" />
         <![endif]-->
         <meta name="viewport" content="initial-scale=1.0, width=device-width">
         <?php wp_head(); ?>
     </head>
     <body class="ps-static  cms-index-index cms-home">
         <div class="wrapper ps-static en-lang-class">
-            <noscript>&lt;div
-            class="global-site-notice noscript"&gt;&lt;div
-            class="notice-inner"&gt;&lt;p&gt;
-            &lt;strong&gt;JavaScript seems to be disabled in your browser.&lt;/strong&gt;&lt;br
-            /&gt;
-            You must have JavaScript enabled in your browser to utilize the functionality of this website.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+            <noscript>
+            <div
+                class="global-site-notice noscript"><div
+                    class="notice-inner"><p>
+                        <strong>JavaScript seems to be disabled in your browser.</strong><br
+                            />
+                        You must have JavaScript enabled in your browser to utilize the functionality of this website.</p></div></div>
             </noscript>
             <div class="page">
                 <?php get_template_part('partials/menu', 'left-side') ?>
