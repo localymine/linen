@@ -5,7 +5,7 @@
                 <div class="padding-s">
                     <?php
                     // TODO
-                    get_template_part('partials/em/register','validation-message');
+                    get_template_part('partials/em/register', 'validation-message');
                     ?>
                     <div class="widget widget-new-products">
                         <div class="widget-title">
@@ -15,15 +15,18 @@
                             <a class="btns prev_new"><span class="material-design-keyboard54"></span></a>
                             <a class="btns next_new"><span class="material-design-keyboard53"></span></a>
                         </div>
-                        
+
                         <div class="owl-carousel-wrapper owl-new-products products-grid">
                             <div class="owl-carousel owl-new owl-theme" id="owl-new-products">
-                                
+
                                 <div class="carousel_col">
                                     <div class="item index_item">
                                         <div class="item_placeholder"></div>
                                         <div class="item_wrap">
                                             <div class="product-image-container">
+                                                <div class="label-product">
+                                                    <span class="sale">Sale</span>
+                                                </div>
                                                 <a href="#" title="Suit blazer" class="product-image" itemprop="url">
                                                     <img id="product-collection-image-83" src="https://dummyimage.com/360x446/73D7CC" alt="Suit blazer" width="360" height="446" itemprop="image">
                                                 </a>
@@ -68,6 +71,10 @@
                                         <div class="item_placeholder"></div>
                                         <div class="item_wrap">
                                             <div class="product-image-container">
+                                                <div class="label-product">
+                                                    <span class="new">New</span>
+                                                    <span class="sale">Sale</span>
+                                                </div>
                                                 <a href="#" title="Suit blazer" class="product-image" itemprop="url">
                                                     <img id="product-collection-image-83" src="https://dummyimage.com/360x446/F58AB7" alt="Suit blazer" width="360" height="446" itemprop="image">
                                                 </a>
@@ -75,9 +82,14 @@
                                             <div class="product-details">
                                                 <h2 class="product-name" itemprop="name"><a href="http://ld-magento.template-help.com/magento_58878/suit-blazer.html" title="Suit blazer">Suit blazer</a></h2>
                                                 <div class="price-box">
-                                                    <span class="regular-price" id="product-price-83">
-                                                        <span class="price">$150.00</span>                                    
-                                                    </span>
+                                                    <p class="special-price">
+                                                        <span class="price-label">Special Price</span>
+                                                        <span class="price" id="product-price-101">$35.00</span>
+                                                    </p>
+                                                    <p class="old-price">
+                                                        <span class="price-label">Regular Price:</span>
+                                                        <span class="price" id="old-price-101">$41.00</span>
+                                                    </p>
                                                 </div>
                                                 <div class="ratings">
                                                     <div class="rating-box stars">
@@ -109,7 +121,7 @@
                                         </div>
                                     </div>       
                                 </div>
-                                
+
                                 <div class="carousel_col">
                                     <div class="item index_item">
                                         <div class="item_placeholder"></div>
@@ -132,7 +144,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="carousel_col">
                                     <div class="item index_item">
                                         <div class="item_placeholder"></div>
@@ -155,7 +167,7 @@
                                         </div>
                                     </div>
                                 </div>    
-                                
+
                                 <div class="carousel_col">
                                     <div class="item index_item">
                                         <div class="item_placeholder"></div>
@@ -178,7 +190,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="carousel_col">
                                     <div class="item index_item">
                                         <div class="item_placeholder"></div>
@@ -201,7 +213,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="carousel_col">
                                     <div class="item index_item">
                                         <div class="item_placeholder"></div>
@@ -224,10 +236,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
