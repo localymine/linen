@@ -68,6 +68,32 @@ function cptui_register_my_cpts() {
         "supports" => array("title"),);
     register_post_type("index_banners", $args);
 
+    $labels = array(
+        "name" => __('Brand List', 'linenfashion'),
+        "singular_name" => __('Brand List', 'linenfashion'),
+    );
+
+    $args = array(
+        "label" => __('Brand List', 'linenfashion'),
+        "labels" => $labels,
+        "description" => "",
+        "public" => true,
+        "publicly_queryable" => true,
+        "show_ui" => true,
+        "show_in_rest" => false,
+        "rest_base" => "",
+        "has_archive" => false,
+        "show_in_menu" => true,
+        "exclude_from_search" => false,
+        "capability_type" => "post",
+        "map_meta_cap" => true,
+        "hierarchical" => false,
+        "rewrite" => array("slug" => "brands_list", "with_front" => true),
+        "query_var" => true,
+        "menu_position" => 26,
+        "menu_icon" => get_template_directory_uri() . '/assets/icons/puzzle.png',
+        "supports" => array("title"),);
+    register_post_type("brands_list", $args);
 
 // End of cptui_register_my_cpts()
 }
@@ -641,6 +667,68 @@ if (function_exists("register_field_group")) {
             'position' => 'side',
             'layout' => 'default',
             'hide_on_screen' => array(
+            ),
+        ),
+        'menu_order' => 0,
+    ));
+
+    register_field_group(array(
+        'id' => 'acf_brands-list',
+        'title' => 'Brands List',
+        'fields' => array(
+            array(
+                'key' => 'field_5876046660ab6',
+                'label' => 'Images',
+                'name' => 'images',
+                'type' => 'repeater',
+                'sub_fields' => array(
+                    array(
+                        'key' => 'field_5876052b17f75',
+                        'label' => 'URL',
+                        'name' => 'url',
+                        'type' => 'text',
+                        'column_width' => '',
+                        'default_value' => '',
+                        'placeholder' => '',
+                        'prepend' => '',
+                        'append' => '',
+                        'formatting' => 'none',
+                        'maxlength' => '',
+                    ),
+                    array(
+                        'key' => 'field_5876047160ab7',
+                        'label' => 'Image',
+                        'name' => 'image',
+                        'type' => 'image',
+                        'instructions' => 'Size 91x88',
+                        'column_width' => '',
+                        'save_format' => 'object',
+                        'preview_size' => 'thumbnail',
+                        'library' => 'all',
+                    ),
+                ),
+                'row_min' => 1,
+                'row_limit' => '',
+                'layout' => 'table',
+                'button_label' => 'Add Row',
+            ),
+        ),
+        'location' => array(
+            array(
+                array(
+                    'param' => 'post_type',
+                    'operator' => '==',
+                    'value' => 'brands_list',
+                    'order_no' => 0,
+                    'group_no' => 0,
+                ),
+            ),
+        ),
+        'options' => array(
+            'position' => 'acf_after_title',
+            'layout' => 'default',
+            'hide_on_screen' => array(
+                0 => 'permalink',
             ),
         ),
         'menu_order' => 0,
