@@ -1,5 +1,12 @@
 <?php
 
+// Add Featured Image to Custom Post Type
+function custom_theme_setup() {
+    add_theme_support('post-thumbnails', array('blog', 'quotes'));
+}
+
+add_action('after_setup_theme', 'custom_theme_setup');
+
 function revcon_change_post_label() {
     global $menu;
     global $submenu;

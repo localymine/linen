@@ -145,12 +145,95 @@ function cptui_register_my_cpts() {
         "rewrite" => array("slug" => "blog", "with_front" => true),
         "query_var" => true,
         "menu_position" => 26,
-        "menu_icon" => get_template_directory_uri() . '/assets/icons/star.png',
-        "supports" => array("title", "editor", "thumbnail", "excerpt", "comments"),);
+        "menu_icon" => get_template_directory_uri() . '/assets/icons/blog.png',
+        "supports" => array("title", "editor", "thumbnail", "excerpt", "comments"),
+        "taxonomies" => array("post_tag"),
+    );
     register_post_type("blog", $args);
 
+    $labels = array(
+        "name" => __('Quotes', 'linenfashion'),
+        "singular_name" => __('Quotes', 'linenfashion'),
+    );
+
+    $args = array(
+        "label" => __('Quotes', 'linenfashion'),
+        "labels" => $labels,
+        "description" => "",
+        "public" => true,
+        "publicly_queryable" => true,
+        "show_ui" => true,
+        "show_in_rest" => false,
+        "rest_base" => "",
+        "has_archive" => false,
+        "show_in_menu" => true,
+        "exclude_from_search" => false,
+        "capability_type" => "post",
+        "map_meta_cap" => true,
+        "hierarchical" => false,
+        "rewrite" => array("slug" => "quotes", "with_front" => true),
+        "query_var" => true,
+        "menu_position" => 26,
+        "menu_icon" => get_template_directory_uri() . '/assets/icons/quotes.png',
+        "supports" => array("title", "editor", "thumbnail"),);
+    register_post_type("quotes", $args);
 
 // End of cptui_register_my_cpts()
+}
+
+/* ---------------------------------------------------------------------------- */
+/* custom taxonomy */
+/* ---------------------------------------------------------------------------- */
+add_action('init', 'cptui_register_my_taxes');
+
+function cptui_register_my_taxes() {
+    $labels = array(
+        "name" => __('Blog Category', 'linenfashion'),
+        "singular_name" => __('Blog Category', 'linenfashion'),
+    );
+
+    $args = array(
+        "label" => __('Blog Category', 'linenfashion'),
+        "labels" => $labels,
+        "public" => true,
+        "hierarchical" => false,
+        "label" => "Blog Category",
+        "show_ui" => true,
+        "show_in_menu" => true,
+        "show_in_nav_menus" => true,
+        "query_var" => true,
+        "rewrite" => array('slug' => 'blog_category', 'with_front' => true,),
+        "show_admin_column" => false,
+        "show_in_rest" => false,
+        "rest_base" => "",
+        "show_in_quick_edit" => false,
+    );
+    register_taxonomy("blog_category", array("blog"), $args);
+
+    $labels = array(
+        "name" => __('Quote Author', 'linenfashion'),
+        "singular_name" => __('Quote Author', 'linenfashion'),
+    );
+
+    $args = array(
+        "label" => __('Quote Author', 'linenfashion'),
+        "labels" => $labels,
+        "public" => true,
+        "hierarchical" => false,
+        "label" => "Quote Author",
+        "show_ui" => true,
+        "show_in_menu" => true,
+        "show_in_nav_menus" => true,
+        "query_var" => true,
+        "rewrite" => array('slug' => 'quote_author', 'with_front' => true,),
+        "show_admin_column" => false,
+        "show_in_rest" => false,
+        "rest_base" => "",
+        "show_in_quick_edit" => false,
+    );
+    register_taxonomy("quote_author", array("post", "quotes"), $args);
+
+// End cptui_register_my_taxes_blog_category()
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -859,6 +942,54 @@ if (function_exists("register_field_group")) {
             'layout' => 'default',
             'hide_on_screen' => array(
                 0 => 'permalink',
+            ),
+        ),
+        'menu_order' => 0,
+    ));
+
+    register_field_group(array(
+        'id' => 'acf_quotes',
+        'title' => 'Quotes',
+        'fields' => array(
+            array(
+                'key' => 'field_58773ae39d45b',
+                'label' => 'URL',
+                'name' => 'url',
+                'type' => 'text',
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'formatting' => 'none',
+                'maxlength' => '',
+            ),
+        ),
+        'location' => array(
+            array(
+                array(
+                    'param' => 'post_type',
+                    'operator' => '==',
+                    'value' => 'quotes',
+                    'order_no' => 0,
+                    'group_no' => 0,
+                ),
+            ),
+        ),
+        'options' => array(
+            'position' => 'acf_after_title',
+            'layout' => 'default',
+            'hide_on_screen' => array(
+                0 => 'excerpt',
+                1 => 'custom_fields',
+                2 => 'discussion',
+                3 => 'comments',
+                4 => 'revisions',
+                5 => 'slug',
+                6 => 'author',
+                7 => 'format',
+                8 => 'categories',
+                9 => 'tags',
+                10 => 'send-trackbacks',
             ),
         ),
         'menu_order' => 0,
