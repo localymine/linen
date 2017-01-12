@@ -95,6 +95,33 @@ function cptui_register_my_cpts() {
         "supports" => array("title"),);
     register_post_type("brands_list", $args);
 
+    $labels = array(
+        "name" => __('Bottom Banners', 'twentysixteen'),
+        "singular_name" => __('Bottom Banners', 'twentysixteen'),
+    );
+
+    $args = array(
+        "label" => __('Bottom Banners', 'twentysixteen'),
+        "labels" => $labels,
+        "description" => "",
+        "public" => true,
+        "publicly_queryable" => true,
+        "show_ui" => true,
+        "show_in_rest" => false,
+        "rest_base" => "",
+        "has_archive" => false,
+        "show_in_menu" => true,
+        "exclude_from_search" => false,
+        "capability_type" => "post",
+        "map_meta_cap" => true,
+        "hierarchical" => false,
+        "rewrite" => array("slug" => "bottom_banners", "with_front" => true),
+        "query_var" => true,
+        "menu_position" => 26,
+        "menu_icon" => get_template_directory_uri() . '/assets/icons/slider.png',
+        "supports" => array("title"),);
+    register_post_type("bottom_banners", $args);
+
 // End of cptui_register_my_cpts()
 }
 
@@ -719,6 +746,81 @@ if (function_exists("register_field_group")) {
                     'param' => 'post_type',
                     'operator' => '==',
                     'value' => 'brands_list',
+                    'order_no' => 0,
+                    'group_no' => 0,
+                ),
+            ),
+        ),
+        'options' => array(
+            'position' => 'acf_after_title',
+            'layout' => 'default',
+            'hide_on_screen' => array(
+                0 => 'permalink',
+            ),
+        ),
+        'menu_order' => 0,
+    ));
+
+    register_field_group(array(
+        'id' => 'acf_bottom-banners',
+        'title' => 'Bottom Banners',
+        'fields' => array(
+            array(
+                'key' => 'field_5876fabf140b1',
+                'label' => 'Bottom Banners',
+                'name' => 'bottom_banners',
+                'type' => 'repeater',
+                'sub_fields' => array(
+                    array(
+                        'key' => 'field_5876fae7140b2',
+                        'label' => 'Description',
+                        'name' => 'description',
+                        'type' => 'textarea',
+                        'instructions' => 'Use tags: h2 h3 h4 strong',
+                        'column_width' => '',
+                        'default_value' => '',
+                        'placeholder' => '',
+                        'maxlength' => '',
+                        'rows' => '',
+                        'formatting' => 'html',
+                    ),
+                    array(
+                        'key' => 'field_5876fb18140b3',
+                        'label' => 'URL',
+                        'name' => 'url',
+                        'type' => 'text',
+                        'column_width' => '',
+                        'default_value' => '',
+                        'placeholder' => '',
+                        'prepend' => '',
+                        'append' => '',
+                        'formatting' => 'none',
+                        'maxlength' => '',
+                    ),
+                    array(
+                        'key' => 'field_5876fb24140b4',
+                        'label' => 'Image',
+                        'name' => 'image',
+                        'type' => 'image',
+                        'instructions' => 'Size 570x536',
+                        'column_width' => '',
+                        'save_format' => 'object',
+                        'preview_size' => 'thumbnail',
+                        'library' => 'all',
+                    ),
+                ),
+                'row_min' => 1,
+                'row_limit' => 2,
+                'layout' => 'table',
+                'button_label' => 'Add Row',
+            ),
+        ),
+        'location' => array(
+            array(
+                array(
+                    'param' => 'post_type',
+                    'operator' => '==',
+                    'value' => 'bottom_banners',
                     'order_no' => 0,
                     'group_no' => 0,
                 ),
