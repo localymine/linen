@@ -1,3 +1,30 @@
+<?php
+$i = 0;
+$args = array(
+    'post_type' => 'quotes',
+    'posts_per_page' => 6,
+    'orderby' => array('date' => 'DESC'),
+);
+$loop = new WP_Query($args);
+$quotes = array();
+if ($loop->have_posts()) {
+    while ($loop->have_posts()) {
+        $loop->the_post();
+        //
+        $quotes[$i]['image'] = get_the_post_thumbnail_url($post->ID, 'full');
+        $quotes[$i]['title'] = get_the_title();
+        $quotes[$i]['content'] = get_the_content();
+        $quotes[$i]['url'] = get_sub_field('url') != '' ? get_sub_field('url') != '' : get_the_permalink();
+        $terms = get_the_terms($post->ID, array('quote_author'));
+        $terms_name = ($terms != FALSE) ? $terms[0]->name : '';
+        $quotes[$i]['term_name'] = $terms_name;
+        $i++;
+    }
+}
+//
+wp_reset_postdata();
+?>
+
 <div class="testimonials_body_wrapper">
     <div class="owl-testimonials-wrapper container">
         <div class="carousel_nav">
@@ -6,25 +33,17 @@
         </div>
         <div class="owl-carousel owl-testimonials owl-theme" id="owl-testimonials">
 
-            <div class="item index_item testimonials_item">
-                <a href="http://ld-magento.template-help.com/magento_58878/collections.html/">
-                    <div class="test_img"><img src="http://ld-magento.template-help.com/magento_58878/skin/frontend/tm_themes/theme348k/images/media/icon_testimonial1.png" alt=""></div>
-                    <div class="test_holder">
-                        <p>Fashion has always been so temporary and uncertain. You can’t keep up with it. This social phenomenon is very whimsical, thus we as the consumers always try to stay in touch with all the latest fashion tendencies. Obviously there is nothing wrong about it because fashion satisfies our willingness to be attractive. And also fashion is the detector of prosperity and social rank.</p>
-                        <strong>Amanda</strong>
-                    </div>
-                </a>
-            </div>
-
-            <div class="item index_item testimonials_item">
-                <a href="http://ld-magento.template-help.com/magento_58878/collections.html/">
-                    <div class="test_img"><img src="http://ld-magento.template-help.com/magento_58878/skin/frontend/tm_themes/theme348k/images/media/icon_testimonial2.png" alt=""></div>
-                    <div class="test_holder">
-                        <p>It will suit you best of all. Because we all live in the time of total consuming of uncountable goods and services, and this has become the main reason for the rapid growth of a so-called culture of consumption in our society. So, this circumstance forced all leading successful companies to explore all needs and wishes of different groups of potential clients very deeply.</p>
-                        <strong>Tom</strong>
-                    </div>
-                </a>
-            </div>
+            <?php foreach ($quotes as $data): ?>
+                <div class="item index_item testimonials_item">
+                    <a href="<?php _e($data['url']) ?>">
+                        <div class="test_img"><img src="<?php _e($data['image']) ?>" alt=""></div>
+                        <div class="test_holder">
+                            <p><?php _e($data['content']) ?></p>
+                            <strong><?php _e($data['term_name']) ?></strong>
+                        </div>
+                    </a>
+                </div>
+            <?php endforeach; ?>
 
         </div>
     </div>
