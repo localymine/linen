@@ -96,12 +96,12 @@ function cptui_register_my_cpts() {
     register_post_type("brands_list", $args);
 
     $labels = array(
-        "name" => __('Bottom Banners', 'twentysixteen'),
-        "singular_name" => __('Bottom Banners', 'twentysixteen'),
+        "name" => __('Bottom Banners', 'linenfashion'),
+        "singular_name" => __('Bottom Banners', 'linenfashion'),
     );
 
     $args = array(
-        "label" => __('Bottom Banners', 'twentysixteen'),
+        "label" => __('Bottom Banners', 'linenfashion'),
         "labels" => $labels,
         "description" => "",
         "public" => true,
@@ -121,6 +121,34 @@ function cptui_register_my_cpts() {
         "menu_icon" => get_template_directory_uri() . '/assets/icons/slider.png',
         "supports" => array("title"),);
     register_post_type("bottom_banners", $args);
+
+    $labels = array(
+        "name" => __('Blog', 'linenfashion'),
+        "singular_name" => __('Blog', 'linenfashion'),
+    );
+
+    $args = array(
+        "label" => __('Blog', 'linenfashion'),
+        "labels" => $labels,
+        "description" => "",
+        "public" => true,
+        "publicly_queryable" => true,
+        "show_ui" => true,
+        "show_in_rest" => false,
+        "rest_base" => "",
+        "has_archive" => false,
+        "show_in_menu" => true,
+        "exclude_from_search" => false,
+        "capability_type" => "post",
+        "map_meta_cap" => true,
+        "hierarchical" => false,
+        "rewrite" => array("slug" => "blog", "with_front" => true),
+        "query_var" => true,
+        "menu_position" => 26,
+        "menu_icon" => get_template_directory_uri() . '/assets/icons/star.png',
+        "supports" => array("title", "editor", "thumbnail", "excerpt", "comments"),);
+    register_post_type("blog", $args);
+
 
 // End of cptui_register_my_cpts()
 }
