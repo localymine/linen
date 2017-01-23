@@ -7,6 +7,18 @@ function custom_theme_setup() {
 
 add_action('after_setup_theme', 'custom_theme_setup');
 
+// Creating Custom Navigation Menus in WordPress Themes
+function wpb_custom_new_menu() {
+    register_nav_menus(
+            array(
+                'my-custom-menu', __('My Custom Menu'),
+                'extra-menu' => __('Extra Menu'),
+            )
+    );
+}
+
+add_action('init', 'wpb_custom_new_menu');
+
 function revcon_change_post_label() {
     global $menu;
     global $submenu;

@@ -12,16 +12,14 @@ lang="en" id="top" class="no-js ie9"> <![endif]-->
     <!--<![endif]-->
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>Clothes store</title>
+        <title>Linen Store</title>
         <meta http-equiv="Cache-Control" content="max-age=3600">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="description" content="Default Description">
-        <meta name="keywords" content="Magento, Varien, E-commerce">
+        <meta name="keywords" content="On My Way, Clothes, Linen">
         <meta name="robots" content="INDEX,FOLLOW">
         <meta name="format-detection" content="telephone=no">
-        <link rel="icon" href="<?php echo get_template_directory_uri() ?>/assets/images/favicon.ico" type="image/x-icon">
-        <link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/assets/images/favicon.ico" type="image/x-icon">
         <!--[if lt IE 10]>
         <div
             style=' clear: both; text-align:center; position: relative; margin: 0 auto;'>
